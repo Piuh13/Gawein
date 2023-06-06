@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Gawein</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Stringlogin -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="companyText">Company X</string>
+    <string name="positionText">Engineer</string>
+    <string name="acceptanceText">Anda Ditolak</string>
+    <string name="articleNameText">Sample Article Name</string>
+    <string name="articleDescText">Sample Article Description with extra text</string>
+    <string name="registerNewText">Daftar Baru</string>
+    <string name="createAccountText">Buat akun</string>
+    <string name="loginPlaceholderText">sudah punya akun? silahkan </string>
+    <string name="loginText">Login</string>
+    <string name="registerPlaceholderText">Jika belum punya akun silahkan </string>
+    <string name="registerText">Daftar</string>
+    <string name="sampleUserEmailText">userEmail@xxxx.com</string>
+    <string name="appInfoText">Info Aplikasi</string>
+    <string name="shareAppText">Bagikan Aplikasi Ini</string>
+    <string name="rateAppText">Nilai Aplikasi Ini</string>
+    <string name="logoutText">Logout</string>
 </resources>
