@@ -11,7 +11,7 @@
         android:icon="@drawable/icon_scan"
         />
     <item
-        android:title="Disimpan"
+        android:title="Loker"
         android:id="@+id/saved"
         android:icon="@drawable/icon_disimpan"
         />
