@@ -1,41 +1,42 @@
 package com.example.gawein.main.data.local.model
 
 data class Article(
-    val title : String,
-    val content : String,
-    val pictureUrl : String
+    val title: String,
+    val content: String,
+    val pictureUrl: String
 )
 
 object sampleArticleList {
-    val asd = "wevgbrwbtwiAASDSDADSDADADADASDASDASDqvwrvweteteneyASDAuadigdtaarvSDADASwvbwitvbieyrwivyrwwoytoDADSADASDADASDA"
+    val asd =
+        "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et "
     val sampleArticle = listOf(
         Article(
-          "SDADDAD",
-          asd,
-          "null"
+            "Article 1",
+            asd,
+            "waskita_karya.png"
         ),
         Article(
-            "SDADDAD",
+            "Article 2",
             asd,
             "null"
         ),
         Article(
-            "SDADDAD",
+            "Article 3",
             asd,
             "null"
         ),
         Article(
-            "SDADDAD",
+            "Article 4",
             asd,
             "null"
         ),
         Article(
-            "SDADDAD",
+            "Article 5",
             asd,
             "null"
         ),
         Article(
-            "SDADDAD",
+            "Article 6",
             asd,
             "null"
         ),

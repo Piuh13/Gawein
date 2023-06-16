@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout_root"
     tools:context=".main.ui.scan.ScanActivity">
 
     <androidx.camera.view.PreviewView
@@ -13,7 +14,32 @@
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/uriView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+             />
+
+        <!--<ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:max="100"
+            tools:progress="20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"/>
+-->
+    </androidx.camera.view.PreviewView>
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardView"
@@ -25,6 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
+
 
         <ImageView
             android:id="@+id/cameraButton"
@@ -44,6 +71,20 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="48dp"
             android:src="@drawable/galleryicon" />
+
+       <TextView
+           android:id="@+id/UploadText"
+           android:text="upload"
+           android:textColor="@color/blue"
+           android:textSize="25sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical|right"
+           android:layout_marginEnd="34dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginBottom="10dp"
+           android:clickable="true"
+           android:foregroundGravity="bottom"/>
     </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

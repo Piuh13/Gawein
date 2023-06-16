@@ -29,7 +29,7 @@ class SavedJobsAdapter(val listJobs: List<Jobs>) : RecyclerView.Adapter<SavedJob
     fun checkAccepted (binding: RvSavedJobsBinding, isAccepted : Boolean, jobs : Jobs) {
         binding.apply {
             if(isAccepted) {
-                binding.acceptanceIcon.setImageResource(R.drawable.edible_icon_svg)
+                binding.acceptanceIcon
                 jobsNameTextView.apply {
                     text = jobs.company
                     setTextColor(resources.getColor(R.color.blue))
@@ -41,7 +41,7 @@ class SavedJobsAdapter(val listJobs: List<Jobs>) : RecyclerView.Adapter<SavedJob
                 }
                 acceptanceTextView.apply {
                     setTextColor(resources.getColor(R.color.textGreen))
-                    text = "Anda Diterima "
+                    text = "Lowongan Tersedia"
                 }
             } else {
 
@@ -56,7 +56,7 @@ class SavedJobsAdapter(val listJobs: List<Jobs>) : RecyclerView.Adapter<SavedJob
                 }
                 acceptanceTextView.apply {
                     setTextColor(resources.getColor(R.color.red))
-                    text = "Anda Ditolak"
+                    text = "Lowongan Sudah Ditutup"
                 }
             }
         }

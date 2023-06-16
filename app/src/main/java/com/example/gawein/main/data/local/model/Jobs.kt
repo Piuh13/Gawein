@@ -17,28 +17,28 @@ object SampleJobsList {
         Jobs(
             1,
             "PT Sejahtera Plus",
-            "Software Engineer",
+            "Operation Manager",
             null,
             isAccepted  = true
         ),
         Jobs(
             2,
             "PT Mitra Jaya Abadi",
-            "3D Designer",
+            "Operation Supervisor",
             null,
-            isAccepted = false
+            isAccepted = true
         ),
         Jobs(
             3,
             "CV Sinar Cahaya",
-            "Data Entry",
+            "Manager Warehouse",
             null,
             isAccepted = true
         ),
         Jobs(
             4,
             "PT Wijaya jaya",
-            "Software Tester",
+            "Operation Manager",
             null,
             isAccepted =  false
         ),
